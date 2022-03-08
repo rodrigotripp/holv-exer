@@ -1,0 +1,20 @@
+{
+    "items": {
+        "1": {
+            "name": "Apple",
+            "quantity": 50
+        },
+        "2": {
+            "name": "Orange",
+            "quantity": 30
+        },
+        "3": {
+            "name": "Cantaloupe",
+            "quantity": 10
+        },
+        "4": {
+            "name": "Avocado",
+            "quantity": 17
+        }
+    }
+}

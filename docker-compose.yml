@@ -1,0 +1,12 @@
+version: '3.6'
+
+services:
+  app:
+    build:
+      app
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app:/app
+    environment:
+      MERCHANT_NAME: "Juicy merchant Ltd."

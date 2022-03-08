@@ -1,0 +1,23 @@
+body {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inventory-table {
+    width: 100%;
+}
+
+#inventory-table td,
+#inventory-table th {
+    width: 25%;
+    padding: 0.2em 1em;
+}
+
+#inventory-table .quantity {
+    text-align: right;
+}
+
+.addform {
+    padding: 0.2em 1em;
+}
