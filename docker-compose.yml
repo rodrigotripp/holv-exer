@@ -5,7 +5,7 @@ services:
     build:
       app
     ports:
-      - "5000:5000"
+      - "5555:5555"
     volumes:
       - ./app:/app
     environment:

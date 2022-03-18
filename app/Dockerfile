@@ -4,7 +4,7 @@ ARG USERGROUP=app
 ARG USERNAME=app
 ARG USERID=1001
 
-EXPOSE 5000
+EXPOSE 5555
 
 RUN addgroup ${USERGROUP}
 RUN adduser ${USERNAME} --disabled-password -u ${USERID} -G ${USERGROUP}
@@ -29,4 +29,4 @@ USER ${USERNAME}
 ENV PYTHONPATH=/app/
 
 # as non-root user the usage of port 80 is not allowed ;(
-CMD gunicorn -w 4 -b 0.0.0.0:5000 wsgi:app
+CMD gunicorn -w 4 -b 0.0.0.0:5555 wsgi:app

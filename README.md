@@ -25,8 +25,8 @@ The exercise consists in writing a web frontend UI
 The only thing necessary to get the applications running is execute
 `docker-compose up` at the root folder of the directory.
 
-* `http://localhost:5000/api/....`: API endpoints
-* `http://localhost:5000/*`: Other endpoints serve the index.html so that HTML5
+* `http://localhost:5555/api/....`: API endpoints
+* `http://localhost:5555/*`: Other endpoints serve the index.html so that HTML5
   history.pushState API can be used.
 
 
