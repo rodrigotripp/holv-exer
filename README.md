@@ -56,6 +56,8 @@ technologies you want to use. Minimum functionality to implement:
 * Remove item
 * Edit item quantity
 
+Please add types to everything.
+
 Extra points but not necessary:
 
 * Tests
