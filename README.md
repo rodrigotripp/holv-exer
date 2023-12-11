@@ -60,12 +60,6 @@ Please add types to everything.
 
 Extra points but not necessary:
 
-* Tests
+* Tests: try to focus on unit tests, but component and E2E tests are also possible
 * Item details view and routing
   * As there are no additional details to show in the current db, you are of course allowed to extend the schema with additional fields
-
-### Example app
-
-An example app for the minimum functionality has been written in a little
-framework called mithril.js and statics can be found in the directory
-`app/static-example-mithril`
