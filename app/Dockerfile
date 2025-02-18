@@ -18,7 +18,7 @@ ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt --no-cache
 RUN rm requirements.txt
 
-RUN pip install -U gunicorn
+RUN pip install -U gunicorn whitenoise
 
 #ADD app.py app.py
 #ADD wsgi.py wsgi.py
